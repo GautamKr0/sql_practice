@@ -5,6 +5,10 @@ sname varchar (29),
 genderId varchar (20)
 )
 
+
+
+
+
 alter table tblstudent1
 add constraint df_tblstudent1_gender
 default 'UN' for genderId
